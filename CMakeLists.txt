@@ -14,6 +14,7 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
+find_package(vehicle_interfaces REQUIRED)
 
 set(msg_files
   "msg/FrenetPoint.msg"
@@ -30,21 +31,43 @@ set(msg_files
   "msg/RoadEvent.msg"
   "msg/RoadArray.msg"
   "msg/Waypoint.msg"
-  "msg/WaypointPath.msg"
+  "msg/PlanningWaypoint.msg"
+  "msg/PlanningWaypointArray.msg"
+  "msg/WaypointArray.msg"
   "msg/WaypointManagerSuccess.msg"
   "msg/WaypointManagerIndex.msg"
+  "msg/WaypointManagerIndexArray.msg"
   "msg/TrajectoryState.msg"
   "msg/Trajectory.msg"
   "msg/TrajectoryArray.msg"
+  "msg/POI.msg"
+  "msg/POIControl.msg"
+  "msg/MissionInfo.msg"
   "srv/WaypointsQuery.srv"
   "srv/ResetAdMap.srv"
   "srv/ResetWaypointManager.srv"
+  "srv/ResetMissionManager.srv"
   "srv/PlanRoute.srv"
+  "srv/UpdateMission.srv"
+  "srv/SaveMission.srv"
+  "srv/RemoveMissionPOI.srv"
+  "srv/AddMissionPOI.srv"
+  "srv/UpdateMissionPOI.srv"
+  "srv/GetMissionInfo.srv"
+  "srv/UpdateSpeedManager.srv"
+  "action/Mission.action"
+  "action/WaitTime.action"
+  "action/WaitFlag.action"
+  "action/StartMedia.action"
+  "action/Approach.action"
+  "action/OnPOI.action"
+  "action/Stop.action"
+  "action/Continue.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
-  DEPENDENCIES std_msgs geometry_msgs nav_msgs
+  DEPENDENCIES std_msgs geometry_msgs nav_msgs vehicle_interfaces
   ADD_LINTER_TESTS
 )
 

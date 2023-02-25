@@ -1,0 +1,3 @@
+planning_interfaces/POI[] pois # List of pois to update
+---
+bool result

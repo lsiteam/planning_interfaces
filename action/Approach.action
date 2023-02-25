@@ -1,0 +1,9 @@
+#goal definition
+float64 near_poi_distance
+planning_interfaces/PlanningWaypoint mission_goal
+---
+#result definition
+bool done
+---
+#feedback
+float64 distance_to_poi

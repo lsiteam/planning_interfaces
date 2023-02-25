@@ -1,0 +1,7 @@
+#goal definition
+bool full_stop
+---
+#result definition
+bool done
+---
+#feedback

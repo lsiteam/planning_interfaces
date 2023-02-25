@@ -1,0 +1,9 @@
+# Action defining a tracking POI over a Road plan
+# Goal definition
+planning_interfaces/PlanningWaypoint poi_goal # POI goal to be tracked
+---
+# Result definition
+planning_interfaces/PlanningWaypoint last_poi_goal
+---
+# Feedback
+planning_interfaces/POI current_poi

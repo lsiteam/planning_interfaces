@@ -1,4 +1,4 @@
 geometry_msgs/Pose[] query_poses
 float32 search_radius
 ---
-planning_interfaces/WaypointManagerIndex[] result_indices
+planning_interfaces/PlanningWaypointArray result

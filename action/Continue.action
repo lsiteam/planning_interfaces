@@ -1,0 +1,7 @@
+#goal definition
+bool restore_movement
+---
+#result definition
+bool done
+---
+#feedback

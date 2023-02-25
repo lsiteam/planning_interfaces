@@ -1,0 +1,5 @@
+planning_interfaces/PlanningWaypointArray pois_waypoints # POI list to add in frenet form.
+bool preempt
+bool full_reset
+---
+bool result

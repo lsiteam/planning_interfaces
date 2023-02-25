@@ -1,3 +1,4 @@
 string map_location
+string poi_map_location
 ---
 bool result
