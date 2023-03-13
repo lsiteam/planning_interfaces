@@ -54,7 +54,6 @@ set(msg_files
   "srv/AddMissionPOI.srv"
   "srv/UpdateMissionPOI.srv"
   "srv/GetMissionInfo.srv"
-  "srv/UpdateSpeedManager.srv"
   "action/Mission.action"
   "action/WaitTime.action"
   "action/WaitFlag.action"
