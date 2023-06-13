@@ -1,4 +1,5 @@
-geometry_msgs/Pose[] query_poses
-float32 search_radius
+# This service message is used to query the waypoint manager to search for a set of poses inside the KDTree
+geometry_msgs/Pose[] query_poses # Poses to find in the kdtree index
+float32 search_radius            # Custom radius for the KNN algorithm
 ---
-planning_interfaces/PlanningWaypointArray result
+planning_interfaces/PlanningWaypointArray result # Result of the process

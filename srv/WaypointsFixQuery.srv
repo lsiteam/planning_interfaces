@@ -1,0 +1,5 @@
+# This service message is used to query the waypoint manager to search for a set of poses inside the KDTree given the NavSat Fix location
+sensor_msgs/NavSatFix[] query_navsat_points      # NavSatFix Poses to find in the kdtree index
+float32 search_radius                            # Custom radius for the KNN algorithm
+---
+planning_interfaces/PlanningWaypointArray result # Result of the process

@@ -1,3 +1,4 @@
-string path_location
+# This service message is used to save the current Mission in a config file
+string path_location # Filesystem path where the mission will be saved as a config file
 ---
-bool result
+bool result          # Result of the process

@@ -1,8 +1,0 @@
-#goal definition
-float64 time
----
-#result definition
-bool done
----
-#feedback
-float64 cycle

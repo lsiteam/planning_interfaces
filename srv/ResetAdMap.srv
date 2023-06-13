@@ -1,4 +1,5 @@
-string map_location
-string poi_map_location
+# This service message is used to change the map on Real time
+string map_location     # Location of the ASAM Opendrive file
+string abp_map_location # Location of the custom ABPs file
 ---
-bool result
+bool result             # Result of the process

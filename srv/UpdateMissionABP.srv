@@ -1,0 +1,4 @@
+# This service message is used to update a set of ABPs inside the current Mission
+planning_interfaces/Mission mission # List of ABPs to update
+---
+bool result                         # Result of the process

@@ -1,0 +1,5 @@
+# This service message is used to query the ad map to search for a set of poses inside the current Map
+sensor_msgs/NavSatFix[] query_navsat         # NavSatFix Poses to use when searching the map
+float32 search_radius                        # Custom radius for the search
+---
+planning_interfaces/MapNavSatResult[] result # Result of the proces

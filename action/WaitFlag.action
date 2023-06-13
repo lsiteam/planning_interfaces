@@ -1,8 +1,0 @@
-#goal definition
-string topic
----
-#result definition
-bool done
----
-#feedback
-bool is_waiting

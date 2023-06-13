@@ -1,0 +1,4 @@
+# This service message is retrieve the current Road Plan
+uint8 filter
+---
+planning_interfaces/RoadPlan road_plan # Road plan currently tracked by the Waypoint Manager

@@ -1,3 +1,4 @@
-planning_interfaces/RoadArray road_array
+# This service message is used to reset the Road plan stored in the Waypoint Manager with a new one
+planning_interfaces/RoadPlan road_plan  # Array of Roads representing the new plan
 ---
-bool result
+bool result                             # Result of the process

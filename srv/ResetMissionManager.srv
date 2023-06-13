@@ -1,3 +1,4 @@
-planning_interfaces/POI[] pois # POI list to add.
+# This service message is used to reset the current Mission with a new set of ABPs
+planning_interfaces/Mission mission # ABPs list to add.
 ---
-bool result
+bool result                         # Result of the process
