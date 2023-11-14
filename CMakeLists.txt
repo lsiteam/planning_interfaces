@@ -52,6 +52,7 @@ set(msg_files
   "srv/ResetAdMap.srv"
   "srv/ResetWaypointManager.srv"
   "srv/ResetMissionManager.srv"
+  "srv/ResetTrajectoryManager.srv"
   "srv/PlanRoute.srv"
   "srv/UpdateMissionABP.srv"
   "srv/SaveMission.srv"
