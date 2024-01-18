@@ -9,7 +9,8 @@ uint8 TURN=5
 uint8 BIKE=6
 uint8 ENTRY=7
 uint8 EXIT=8
-uint8 UNKNOWN=9
+uint8 SHOULDER=9
+uint8 UNKNOWN=10
 
 int64 lane_id                                # Lane id extracted from storage
 uint8 lane_type                              # Type of lane

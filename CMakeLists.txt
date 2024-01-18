@@ -60,6 +60,8 @@ set(msg_files
   "srv/AddMissionABP.srv"
   "srv/GetMission.srv"
   "srv/GetRoadPlan.srv"
+  "srv/GenerateEmergencyRoad.srv"
+  "srv/SetEmergencyModeWaypointManager.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

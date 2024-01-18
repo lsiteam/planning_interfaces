@@ -1,0 +1,5 @@
+# This service message is used to set an emergency mode in the waypoint manager to follow the emergency trajectory
+bool emergency_mode                         # Set or not the emergency mode
+planning_interfaces/RoadPlan emergency_road  # Road plan for emergency situations
+---
+bool result

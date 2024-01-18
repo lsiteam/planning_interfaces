@@ -1,0 +1,4 @@
+# This service message is used to retrieve an emergency trajectory for the Behavior tree
+int64 current_lane_id
+---
+planning_interfaces/RoadPlan emergency_road # Road plan for emergency situations

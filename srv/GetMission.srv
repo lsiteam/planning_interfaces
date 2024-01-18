@@ -1,3 +1,3 @@
-# This service message is retrieve the current Mission
+# This service message is used to retrieve the current Mission
 ---
 planning_interfaces/Mission mission # All ABP sector information aggregated
