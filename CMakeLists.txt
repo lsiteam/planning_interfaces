@@ -49,6 +49,7 @@ set(msg_files
   "srv/WaypointsQuery.srv"
   "srv/WaypointsFixQuery.srv"
   "srv/NavSatFixQuery.srv"
+  "srv/GetMapENUReference.srv"
   "srv/ResetAdMap.srv"
   "srv/ResetWaypointManager.srv"
   "srv/ResetMissionManager.srv"
