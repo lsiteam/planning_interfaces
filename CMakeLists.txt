@@ -16,6 +16,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(vehicle_interfaces REQUIRED)
+find_package(perception_interfaces REQUIRED)
 
 set(msg_files
   "msg/FrenetPoint.msg"
@@ -45,6 +46,8 @@ set(msg_files
   "msg/ABPControl.msg"
   "msg/Mission.msg"
   "msg/MissionStatus.msg"
+  "msg/TrafficFlag.msg"
+  "msg/Distance.msg"
   "msg/MapNavSatResult.msg"
   "srv/WaypointsQuery.srv"
   "srv/WaypointsFixQuery.srv"
@@ -67,7 +70,7 @@ set(msg_files
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
-  DEPENDENCIES std_msgs geometry_msgs nav_msgs sensor_msgs vehicle_interfaces
+  DEPENDENCIES std_msgs geometry_msgs nav_msgs sensor_msgs vehicle_interfaces perception_interfaces
   ADD_LINTER_TESTS
 )
 
