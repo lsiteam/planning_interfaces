@@ -42,6 +42,7 @@ set(msg_files
   "msg/TrajectoryState.msg"
   "msg/Trajectory.msg"
   "msg/TrajectoryArray.msg"
+  "msg/Emergency.msg"
   "msg/ABP.msg"
   "msg/ABPControl.msg"
   "msg/Mission.msg"
